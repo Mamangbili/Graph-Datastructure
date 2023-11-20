@@ -6,7 +6,7 @@ const map = [
     'x....xx.....x',
     'xxxx....xxx.x',
     'xx...xxx.xx.x',
-    'xxxxxx......x',
+    'xoxxxx......x',
     'x......xxxxxx',
     'xxxxxxxxxxxxx',
 ]
@@ -81,13 +81,12 @@ function findPath(map, start) {
 
 
     }
-    console.log(visited)
     return found ? visited : null;
 
 }
 
 
-console.log('final path :', findPath(map, start))
+console.log('visited path :', findPath(map, start))
 
 
 
